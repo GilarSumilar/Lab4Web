@@ -27,7 +27,7 @@ screenshotnya.
 
 **Hasil tugas :**
 
-![T](Gambar/Full-website.png) 
+![T](Gambar/Tugas.png) 
 
 # Penjelasan 
 ## 1. 
@@ -800,6 +800,7 @@ pretium ac.</p>
 ![0.1](Gambar/11.png)
 
 #### *Note :*
+![F](Gambar/Full-website.png)
 
 
 
