@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="container">
+        <header> <!--Header-->
+            <h1>Layout Sederhana</h1>
+        </header>
+        <nav> <!--Navigasi-->
+            <a href="home.html" class="active">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <section id="hero"> <!--Hero-->
+            <h1>Hello World!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+                elit, iaculis innisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
+                vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc
+                pretium ac.</p>
+            <a href="home.html" class="btn btn-large">Learn more &raquo;</a>
+        </section>
+        <section id="wrapper">
+            <section id="main"> <!--Main-->
+                <div class="row">
+                    <div class="box">
+                        <img src="https://dummyimage.com/120/db7d25/fff.png" alt="" class="image-circle">
+                        <h3>Heading</h3>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis
+                            euismod.</p>
+                        <a href="#" class="btn btn-default">View detail</a>
+                    </div>
+                    <div class="box">
+                        <img src="https://dummyimage.com/120/3e73e6/fff.png" alt="" class="image-circle">
+                        <h3>Heading</h3>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis
+                            euismod.</p>
+                        <a href="#" class="btn btn-default">View detail</a>
+                    </div>
+                    <div class="box">
+                        <img src="https://dummyimage.com/120/71e6d4/fff.png" alt="" class="image-circle">
+                        <h3>Heading</h3>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis
+                            euismod.</p>
+                        <a href="#" class="btn btn-default">View detail</a>
+                    </div>
+                </div>
+                <hr class="divider" />
+                <article class="entry">
+                    <h2>First featurette heading.</h2>
+                    <img src="https://dummyimage.com/150/7b8a70/fff.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+                        elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
+                        vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc
+                        pretium ac.</p>
+                </article>
+                <hr class="divider" />
+                <article class="entry">
+                    <h2>First featurette heading.</h2>
+                    <img src="https://dummyimage.com/150/7b8a70/fff.png" alt="" class="right-img">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+                        elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
+                        vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc
+                        pretium ac.</p>
+                </article>
+            </section>
+            <aside id="sidebar"> <!--SideBar-->
+                <div class="widget-box">
+                    <h3 class="title">Widget Header</h3>
+                    <ul>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                    </ul>
+                </div>
+                <div class="widget-box">
+                    <h3 class="title">Widget Text</h3>
+                    <p>Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt
+                        arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer
+                        pharetra est nunc, nec pretium nunc pretium ac.</p>
+                </div>
+            </aside>
+        </section> <!--Footer-->
+        <section class="footer" id="footer">
+            <div class="container"> 
+                <div class="box">
+                    <hr class="divider" />
+                    <h2>About Us</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum nisi dolorem reprehenderit? Eos quas
+                        perferendis velit porro nemo tempora ab. 
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Ab cumque beatae aspernatur deserunt est aliquid ullam sit at dolorem ipsam tempora necessitatibus, rem iusto voluptatum quaerat ducimus esse in nesciunt!
+                    </p>
+                    <div class="contact-form"> <!--Kontak-->
+                        <h2>Contact Us</h2>
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label for="name">Nama:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Pesan:</label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Kirim Pesan</button>
+                        </form>
+                    </div>
+                    <div class="sosmed">
+                        <div class="perSosmed">
+                          <li><a class="facebook" href="#"><i class="bi bi-facebook btn-lg" data-bs-toggle="toolip" data-bs-placement="top" title="Facebook"></i></a></li>
+                        </div>
+    
+                        <div class="perSosmed">
+                          <li><a class="instagram" href="#" target="_blank"><i class="bi bi-instagram btn-lg" data-bs-toggle="toolip" data-bs-placement="top" title="Instagram"></i></a></li>
+                        </div>
+    
+                        <div class="perSosmed">
+                          <li><a class="whatsapp" href="#"><i class="bi bi-whatsapp btn-lg" data-bs-toggle="toolip" data-bs-placement="top" title="Whatsapp"></i></a></li>
+                        </div>
+    
+                        <div class="perSosmed">
+                          <li><a class="email" href="#"><i class="bi bi-envelope btn-lg" data-bs-toggle="toolip" data-bs-placement="top" title="Email"></i></a></li>
+                        </div>  
+                    </div>
+                </div>    
+            </div>
+        </section>
+        <footer class="end"> <!--Footer end-->
+            <p>&copy; 2023 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+
+</html>
